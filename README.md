@@ -1,3 +1,6 @@
+<img width="300" height="600" alt="2hw" src="https://github.com/user-attachments/assets/e3117170-3a97-482b-952d-408d843e7a31" />
+
+
 # Практика "Две статьи"
 
 В этой практике вам предстоит поработать с основными компонентами Android и сделать первые разметки - на Compose и Views (XML). 
