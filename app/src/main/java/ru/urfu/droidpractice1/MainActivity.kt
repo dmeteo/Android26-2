@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.activity.viewModels
 import ru.urfu.droidpractice1.content.MainActivityScreen
 import ru.urfu.droidpractice1.content.MainViewModel
 
@@ -20,10 +21,11 @@ class MainActivity : ComponentActivity() {
 
     private var onSecondActivityResult: ((Boolean) -> Unit)? = null
 
+    private val viewModel: MainViewModel by viewModels()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            val viewModel: MainViewModel = MainViewModel()
 
             onSecondActivityResult = { isRead ->
                 if (isRead) {
