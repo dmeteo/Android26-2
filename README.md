@@ -1,5 +1,4 @@
-<img width="300" height="600" alt="2hw" src="https://github.com/user-attachments/assets/e3117170-3a97-482b-952d-408d843e7a31" />
-
+<img src="2hw.gif" alt="2hw" width="300"/>
 
 # Практика "Две статьи"
 
